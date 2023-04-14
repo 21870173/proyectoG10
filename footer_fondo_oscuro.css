@@ -15,11 +15,11 @@ main {
     width: 100%;
     height: auto;
     padding-top: 2rem;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin: 00px;
-    border: 00px;
+    margin: 00rem;
+    border: 00rem;
     background-color: #272727;
     display: flex;
     justify-content: space-around;
@@ -31,8 +31,35 @@ main {
     color: #fff; 
 }
 
-ul {
+ul li {
     list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    
+}
+
+button {
+    background: none;
+    color: #fff;
+    border: 0px;
+}
+
+.btn-wsp {
+   position: fixed;
+   width: 80px;
+   height: 80px;
+   line-height: 40px;
+   bottom: 80px;
+   right: 80px;
+   background: #0df053;
+   color: #fff;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 30px;
+   box-shadow: opx 1px 10px rgba(0,0,0,0.3);
+   z-index: 100;
 }
 
 h6 {
